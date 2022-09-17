@@ -2,4 +2,10 @@
 
 **alignOutput.c** : aligns output (numbers) left or right justified
 
+**forMultipleExpressions.c** : adding multiple expressions to `for` loop
+
 **readChar.c** : reads input using `getc()` and `getchar()`
+
+**precisionSpecifiers.c** : using precisionSpecifiers
+
+
