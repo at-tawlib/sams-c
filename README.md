@@ -8,4 +8,6 @@
 
 **precisionSpecifiers.c** : using precisionSpecifiers
 
+**bitwiseOperators.c** : use of bitwise operators
 
+**bitwiseShift.c** : test for left shift and right shift
