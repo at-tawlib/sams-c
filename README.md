@@ -27,3 +27,5 @@
 **readChar.c** : reads input using `getc()` and `getchar()`
 
 **specialOperators.c** : use of special operators
+
+**strings.c** : initializing strings, getting length of strings
