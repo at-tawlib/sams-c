@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main - initializing strings
+ * main - initializing strings, printing string, string length, string copy, scanf()
  * Return: always 0
  */
 int main(void)
@@ -34,6 +34,39 @@ int main(void)
 	printf("The length of str1 is: %lu bytes\n", strlen(str1));
 	printf("The length of str2 is: %lu bytes\n", strlen(str2));
 	printf("The length of the string assigned to ptr_str is: %lu bytes\n", strlen(ptr_str2));
+
+	putchar(10);
+	/** string copy **/
+	char str_cpy1[] = "Copy a string.";
+	char str_cpy2[15];
+	char str_cpy3[15];
+
+	/** with strcpy **/
+	strcpy(str_cpy2, str_cpy1);
+
+	/** without strcpy() **/
+	for (i = 0; str1[i]; i++)
+		str_cpy3[i] = str_cpy1[i];
+	str_cpy3[i] = '\0';
+
+	/* display str_cp2 and str_cpy3 */
+	printf("The content of str_cpy2 using strcpy: %s\n", str_cpy2);
+	printf("The content of str_cpy3 without using strcpy: %s\n", str_cpy3);
+
+	putchar(10);
+	/** using scanf() **/
+	char strng[80];
+	int m, n;
+	float q;
+
+	printf("Enter two integers separated by a space:\n");
+	scanf("%d %d", &m, &n);
+	printf("Enter a floating-point number:\n");
+	scanf("%f", &q);
+	printf("Enter a string:\n");
+	scanf("%s", strng);
+	printf("Here are what you've entered:\n");
+	printf("%d  %d\n%f\n%s\n", m, n, q, strng);
 
 	return (0);
 }
