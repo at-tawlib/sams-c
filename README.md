@@ -31,3 +31,5 @@
 **strings.c** : initializing strings, getting length of strings
 
 **16-fxn-var-arguments.c** : demo on how to use va_start(), va_arg() and va_end() in a function that takes a variable number of arguments
+
+**16L01-pointer-arithmetic.c** : prints out memeroy addresses referenced by pointers and using arithmetic operations to move the pointers
