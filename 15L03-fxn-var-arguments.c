@@ -2,6 +2,8 @@
 #include <stdarg.h>
 
 /**
+ * Processing Variable arguments
+ *
  * AddDouble - add numbers
  * stdarg.h enables us to write functions that take a variable number of arguments. uses va_start(), va_arg() and va_end().
  *also includes va_list which defines an array type
