@@ -37,3 +37,11 @@
 **16L02-pointer-subtraction.c** : performing substraction on pointers
 
 **16-L03-pointers-arrays.c** : how to access arrays and change values of array elements by using pointers
+
+**16-L04-array-fxn.c** : passing arrays to functions
+
+**16L05-pointer-functions.c** : passing pointers to functions
+
+**16L06-multidimen-array-fxn.c** : passing multidimensional arrays to functions
+
+**16L07-array-of-pointers.c** : accessing array of strings using array of pointers
